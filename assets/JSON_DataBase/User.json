@@ -1,4 +1,5 @@
-[
+{
+    "posts":[
     {
         "id":1,
         "first_name":"Patten",
@@ -15999,4 +16000,4 @@
         },
         "Company":"Toy, Barrows and Davis"
     }
-]
+]}
