@@ -46,57 +46,8 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
 
 <body>
 
-  <!-- <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">Abdullah Ramees</a></h1>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="#profile" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-    </div>
-  </header> -->
-
-
-  <nav class="navbar navbar-expand-custom navbar-mainbg">
-    <a class="navbar-brand navbar-logo" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars text-white"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
   <!-- ======= profile  Section ======= -->
-  <section id="profile" class="d-flex flex-column justify-content-center">
+  <section id="profile" class="d-flex flex-row justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Abdullah Ramees</h1>
       <p>"Keep your expectations low and you will never be disappointed"</p><br>
@@ -108,9 +59,6 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
         <a href="https://www.instagram.com/m.abdullah_ramees/" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div>
       <br>
-      <!-- 
-      <div class="AnimationText">"Keep your expectations low and you will never be disappointed"</div>
-      -->
     </div>
   </section>
   <!-- End Profile -->
@@ -127,7 +75,7 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
   
           <div class="row">
             <div class="col-lg-4">
-              <img src="assets/img/pic.jpg" class="img-fluid" alt="">
+              <img src="assets/img/pic.jpg" class="img-fluid" alt="" width="1000" height="1000">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Software Engineer, Game Designer and Developer.</h3>
@@ -310,6 +258,7 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
               <h5>Projects -Academic</h5>
               <p><em>as a student at the University of Kelaniya, I worked on a variety of projects to gain experience and knowledge about courses modules. </em></p>
               <ul>
+                <li>GUI design for University library-Interactive Application</li>
                 <li>Master-Tech Computer Shop web application-Php,HTML,CSS,JavaScript </li>
                 <li>CMD_Report_Generator-Java(Solid Principles)</li>
                 <li>Cmdline Calculator-Java(Solid Principles)</li>
@@ -339,12 +288,27 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
         <div class="section-title">
           <h2>Projects</h2>
         </div>
+        <div class="section-title">
+          <h2>Academic Projects</h2>
+        </div>
+
 
         <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div><h6 style="text-align: right;">Project 001</h6></div>
+              <div class="icon">
+                <img src="assets/img/GUI.png" alt="" width="200" height="100">
+              </div>
+              <h4><a href="#">GUI for University Library</a></h4>
+              <p> An online Library Management System for the University. It includes separate web interfaces for the library administration and users. </p>
+            </div>
+          </div>
           
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
-                <div><h6 style="text-align: right;">Project 001</h6></div>
+                <div><h6 style="text-align: right;">Project 002</h6></div>
                 <div class="icon">
                   <img src="assets/img/logo.png" alt="">
                 </div>
@@ -355,7 +319,7 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
-                <div><h6 style="text-align: right;">Project 002</h6></div>
+                <div><h6 style="text-align: right;">Project 003</h6></div>
                 <div class="icon">
                   <img src="assets/img/pngwing.com.png" alt="" width="200" height="100">
                 </div>
@@ -366,7 +330,7 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
-                <div><h6 style="text-align: right;">Project 003</h6></div>
+                <div><h6 style="text-align: right;">Project 004</h6></div>
                 <div class="icon">
                   <img src="assets/img/Mimetypes-cmd-icon.png" alt="" width="200" height="100">
                 </div>
@@ -375,15 +339,84 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
               </div>
             </div>
 
-           
-        
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div><h6 style="text-align: right;">Project 005</h6></div>
+                <div class="icon">
+                  <img src="assets/img/Java.png" alt="" width="200" height="100">
+                </div>
+                <h4><a href="">Master-Tech admin panel</a></h4>
+                <p>functional Application For Master-Tech shop  Admin panel Using Java OOP and Swing </p>
+              </div>
+            </div>
+      </div>
+      <br> <br>
+      <div class="section-title">
+        <h2>Self Study Projects</h2>
+      </div>
+       <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div><h6 style="text-align: right;">Project 001</h6></div>
+              <div class="icon">
+                <img src="assets/img/Brick.png" alt="" width="200" height="100">
+              </div>
+              <h4><a href="#">Brick breaker Game</a></h4>
+              <p> Brick Breaker Game Using Java Swing. This Project Help me To get an Item in Java And Java Swing Draw </p>
+            </div>
+          </div>
+          
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div><h6 style="text-align: right;">Project 002</h6></div>
+                <div class="icon">
+                  <img src="assets/img/favicon.ico" alt="">
+                </div>
+                <h4><a href="">AbdullahRamees.github.io</a></h4>
+                <p>I create this Project to Test Github pages after that I make it My portfolio website
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div><h6 style="text-align: right;">Project 003</h6></div>
+                <div class="icon">
+                  <img src="assets/img/X11-icon (1).png" alt="" width="200" height="100">
+                </div>
+                <h4><a href="">TripleX Game</a></h4>
+                <p>This Game I created to study C++ basics. this is a cmdline game, it will Give you Addition and Multiplication of Three Numbers And you need to find out those number </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div><h6 style="text-align: right;">Project 004</h6></div>
+                <div class="icon">
+                  <img src="assets/img/Bul Cow.png" alt="" width="200" height="100">
+                </div>
+                <h4><a href="">Bull and Cow Game</a></h4>
+                <p>In this Game You need To find A Word for Every try it will show How many bull and cows </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box iconbox-blue">
+                <div><h6 style="text-align: right;">Project 005</h6></div>
+                <div class="icon">
+                  <img src="assets/img/Esc.png" alt="" width="200" height="100">
+                </div>
+                <h4><a href="">Escape Building Game</a></h4>
+                <p>in this Game you need To Escape From a room By doing Puzzle </p>
+              </div>
+            </div>
       </div>
     </section>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Contact</h2>
         </div>
@@ -391,7 +424,6 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
       
         <div class="row">
           <div class="col-lg-6">
-
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -410,13 +442,7 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
                 <h4>Call:</h4>
                 <p>+94 77-451 9203</p>
               </div>
-            </div>
-          </div>
-        
-
-          <div class="col-lg-6">
-            <div class="info">
-
+              
               <div class="phone">
                 <i class="bx bxl-facebook"></i>
                 <h4>facebook:</h4>
@@ -432,10 +458,15 @@ if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < 
               <div class="phone">
                 <i class="bx bxl-linkedin"></i>
                 <h4>linkedin:</h4>
-                <p><a href="ttps://www.linkedin.com/in/mohamed-ramees-mohamed-abdullah-886a5b1a9">Abdullah Ramees</a></p>
+                <p><a href="https://www.linkedin.com/in/mohamed-ramees-mohamed-abdullah-886a5b1a9">Abdullah Ramees</a></p>
               </div>
            
             </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="assets/img/INTST.jpg" class="img-fluid" alt="" width="1000" height="1000">
+            <img src="assets/img/FaceBook.jpg" class="img-fluid" alt="" width="1000" height="1000">
+            
 
           </div>
 
